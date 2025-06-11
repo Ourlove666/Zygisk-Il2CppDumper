@@ -16,7 +16,7 @@ package_name:
 分布: temurin
 java版: 11
 缓存: Gradle
-    - 跑: |
+    - 跑:
 chmod+x./gradlew
 SED-i的/moduleDescription="/moduleDescription="(${{github.event.inputs.package_name}})/g'module.gradle
 SED-i"s/com。游戏。PackageName/${{github。事件。输入.包名称}/g"模块/src/main/cpp/Game.h
